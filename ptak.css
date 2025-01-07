@@ -1,0 +1,46 @@
+body {
+  background: cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+canvas {
+  border: 3px solid rgb(0, 0, 0);
+  background-color: aqua;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+p {
+background-color: aquamarine;
+font-size: 24px;
+}
+.menu a {
+margin: 10px; /* Přidá prostor mezi tlačítky */
+}
+
+.img-container {
+text-align: center; /* Centrované zobrazení obrázku */
+}
+
+.small-img {
+max-height: 160px; /* Maximální výška obrázku */
+width: auto; /* Udržuje poměr stran obrázku */
+}
+
+@media (max-width: 767px) {
+.small-img {
+    max-height: 100px; /* Menší výška pro mobilní zařízení */
+}
+}
+/* Menu */
+.menu {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-bottom: 10px;
+}

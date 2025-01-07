@@ -1,0 +1,72 @@
+.krtek {
+    background-image: url(http://365psd.com/images/thumbs/7d7/cartoon-mole-52006.png);
+    width: 250px;
+    height: 188px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 50ms;
+    position: absolute;
+    overflow: hidden;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    margin: 5px;
+  }
+#restart {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(1, 1, 244, 0.466);
+    color: white;
+}
+
+#casovac {
+    float: right;
+    width: 53px;
+    height: 30px;
+    font-size: 25px;
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: black;
+}
+
+#skore{
+    float: right;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: black;
+}
+
+#casovac { float: left; }
+#skore:before { content: "skore:"; }
+
+#wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 600px; 
+    margin: 0 auto;
+    border: 3px solid black;
+    background: url("https://media.angi.com/s3fs-public/carpetgrass-1011297066.jpeg?impolicy=leadImage");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+body,
+html {
+    color: orange;
+    text-shadow: 1px 1px 6px #000;
+    height: 100%;
+    background: darkgrey;
+}
+

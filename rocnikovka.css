@@ -1,0 +1,302 @@
+/* Odkazy */
+a {
+  font-size: 16px; /* Vhodnější velikost pro mobilní zařízení */
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: transparent;
+  color: blueviolet;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.menu a {
+  margin: 5px;
+}
+
+/* Obrázky */
+
+/* Media queries */
+@media (max-width: 768px) {
+  .small-img {
+    height: 150px;
+    width: auto;
+  }
+
+  a {
+    font-size: 14px;
+  }
+}
+
+.fs-3 {
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+
+.small-img {
+  height: 200px;
+  width: 200px;
+}
+
+body {
+background-image: url(Cyberpunk-2077-Johnny.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+
+.menu a {
+margin-left: 10px; /* Přidá prostor mezi tlačítky */
+}
+
+.img-container {
+text-align: center; /* Centrované zobrazení obrázku */
+}
+
+.small-img {
+max-height: 160px; /* Maximální výška obrázku */
+width: auto; /* Udržuje poměr stran obrázku */
+}
+
+@media (max-width: 767px) {
+.small-img {
+  max-height: 100px; /* Menší výška pro mobilní zařízení */
+}
+}
+
+
+.menu {
+  display: flex;
+  align-items: center; /* Vertikální zarovnání tlačítek na střed */
+  gap: 10px; /* Přidá prostor mezi tlačítky */
+  margin-top: 10px; /* Posune tlačítka výše než obrázek; upravte podle potřeby */
+  color: white;
+  text-align: right;
+  margin-right: 10px;
+}
+p {
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 20px;
+}
+h1 {
+  color: black(80, 72, 72);
+  font-family: "Century Gothic", sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.fcbk {
+  max-width:105px; max-height: 100px;
+  min-width: auto; min-height: auto;
+  margin-top: 5px;
+}
+
+.ig {
+  width: 105px; height: 100px;
+  margin-top: 5px;
+}
+
+.twitter {
+  width: 105px; height: 100px;
+  margin-top: 5px;
+}
+
+.mail {
+  width: 105px; height: 100px;
+  margin-top: 5px;
+}
+
+
+
+.social div {
+  text-align: center; 
+  width: 100px; 
+}
+
+.social img {
+  width: 80px; 
+  height: auto;
+  margin-bottom: 10px; 
+}
+
+.social a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}
+
+.social p {
+  margin: 0; 
+  font-size: 14px;
+}
+
+.bap {
+  color: black;
+  font-size: 30px;
+}
+
+.social h3 {
+  color: black;
+}
+
+.social hr {
+  color: rgb(255, 255, 255);
+}
+
+.mail {
+  color: white;
+  font-size: small;
+}
+
+.email {
+  color: black;
+}
+
+.facebook {
+  text-align: justify;
+  width: auto;
+  white-space: nowrap;
+}
+
+.facebook img {
+  display: block;
+  margin: 0 auto;
+}
+
+.instagram {
+  text-align: justify;
+  width: auto;
+}
+
+.instagram img {
+  display: block;
+  margin: 0 auto;
+}
+
+.email {
+  text-align: justify;
+  width: auto;
+}
+
+.email img {
+  display: block;
+  margin: 0 auto;
+}
+
+.x {
+  text-align: justify;
+  width: auto;
+}
+
+.x img {
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-form {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: solid 2px black;
+  text-align: center;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.contact-form h3 {
+  margin-bottom: 15px;
+  color: black;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.contact-form button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.contact-form button:hover {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.kontakt {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 40px; 
+  color: white;
+  padding: 20px; 
+  width: 70%; 
+  margin: auto; 
+  border-radius: 25px; 
+  border: solid 2px black;
+  background-color: white;
+}
+
+.onaas {
+  background-color: rgba(255, 255, 255, 0.719);
+  width: 84%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 40px; 
+  margin: auto;
+}
+
+.aktualnee {
+  background-color: rgba(255, 255, 255, 0.719);
+  width: 84%;
+  margin: auto;
+}
+
+.visitors {
+  font-size: 1px;
+}

@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgba(255, 166, 0, 0.63);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+ 
+
+  .mainContent {
+    position: relative;
+  }
+  
+  .vCenter {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .theIcon {
+    font-size: 121px;
+  }
+  
+  .numInput {
+    text-align: center;
+    font-size: 31px;
+    width: 61px;
+    height: 61px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    background-color: transparent;
+  }
+  
+  .guessButton {
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+
+.menu a {
+  margin: 10px; /* Přidá prostor mezi tlačítky */
+  }
+  
+  .img-container {
+  text-align: center; /* Centrované zobrazení obrázku */
+  }
+  
+  .small-img {
+  max-height: 160px; /* Maximální výška obrázku */
+  width: auto; /* Udržuje poměr stran obrázku */
+  }
+  
+  @media (max-width: 767px) {
+  .small-img {
+      max-height: 100px; /* Menší výška pro mobilní zařízení */
+  }
+  }
+  /* Menu */
+  .menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  }

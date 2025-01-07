@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+    margin-top: 10px;
+    color: white;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* Vertikální zarovnání tlačítek na střed */
+    gap: 10px; /* Přidá prostor mezi tlačítky */
+    margin-top: 10px; /* Posune tlačítka výše než obrázek; upravte podle potřeby */
+    color: white;
+    text-align: right;
+    margin-right: 10px;
+}
+p {
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.153);
+    font-family: "Century Gothic", sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: black(80, 72, 72);
+    font-family: "Century Gothic", sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
